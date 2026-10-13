@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agrolink Africa — AI-Driven Resilient Agricultural Value Chain</title>
+    <meta name="description" content="AI-driven agricultural value-chain platform eliminating systemic supply chain fragmentation and post-harvest food loss across Africa." />
+    <meta property="og:title" content="Agrolink Africa — AI-Driven Resilient Agricultural Value Chain" />
+    <meta property="og:description" content="AI-driven agricultural value-chain platform eliminating systemic supply chain fragmentation and post-harvest food loss across Africa." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+      // Suppress harmless Vite dev-server HMR / WebSocket transport failures in iframe environment
+      window.addEventListener('error', function(event) {
+        var msg = (event && event.message) || '';
+        var file = (event && event.filename) || '';
+        if (msg.includes('WebSocket') || msg.includes('vite') || msg.includes('transport') || file.includes('@vite/client')) {
+          event.preventDefault();
+          if (event.stopImmediatePropagation) event.stopImmediatePropagation();
+          return true;
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function(event) {
+        var reason = String((event && event.reason && event.reason.message) || (event && event.reason) || '');
+        if (reason.includes('WebSocket') || reason.includes('vite') || reason.includes('transport')) {
+          event.preventDefault();
+          if (event.stopImmediatePropagation) event.stopImmediatePropagation();
+        }
+      }, true);
+    </script>
+  </head>
+  <body class="bg-[#FBF9F5] text-stone-900 antialiased selection:bg-[#C2593F]/20 selection:text-[#1C3D2D]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

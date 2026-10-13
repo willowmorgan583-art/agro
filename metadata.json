@@ -1,0 +1,6 @@
+{
+  "name": "Agrolink Africa",
+  "description": "AI-driven agricultural value-chain platform eliminating systemic supply chain fragmentation and post-harvest food loss across Africa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
